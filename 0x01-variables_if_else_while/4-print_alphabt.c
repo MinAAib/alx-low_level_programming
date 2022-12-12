@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
+
 /**
  * main - Entry point
  * Description: prints lowercase alphabets
@@ -15,7 +16,9 @@ if (ch != 'e' && ch != 'q')
 putchar(ch);
 }
 else
+{
 }
+{
 putchar('\n');
 return (0);
 }
