@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main - entry point
- * description: prints if a number is positive, negative.
+ * description: prints if a number is positive, negative or 0
  * return : always 0
  */
 int main(void)
@@ -20,7 +21,7 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	else if
+	else
 	{
 		printf("%d is negativ\n", n);
 	}
